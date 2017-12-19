@@ -43,6 +43,12 @@ def groupSumClump(start,nums,target):
 			return groupSumClump(i,nums,target) or groupSumClump(i,nums,target-(i-start)*nums[i-start])
 	return groupSumClump(start+1,nums,target) or groupSumClump(start+1,nums,target-nums[start])
 
+def splitOdd10(n1,n2,n3):
+        if (n1 + n2 + n3) % 10 !=0:
+                return false
+        elif:
+                return true
+
 
 #print(11%5==0)
 print(groupSum(0,[2,4,8],12))
