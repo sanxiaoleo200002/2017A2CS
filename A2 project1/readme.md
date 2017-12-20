@@ -1,0 +1,1 @@
+Minimum Spanning Tree£ºcreate a program which takes a connected, undirected graph with weights and outputs the minimum spanning tree of the graph i.e., a subgraph that is a tree, contains all the vertices, and the sum of its weights is the least possible.
